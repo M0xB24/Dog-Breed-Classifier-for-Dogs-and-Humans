@@ -1,0 +1,25 @@
+{% extends "master.html" %}
+{% block title %}Results{% endblock %}
+
+{% block message %}
+    <hr />
+    <h4 class="text-center">Uploaded Image</h4>
+    <div class="text-center">
+        <img src="{{ img_url }}" alt="Uploaded Image" class="img-thumbnail" style="max-width: 300px;">
+    </div>
+{% endblock %}
+
+{% block content %}
+    <h1 class="text-center">Result</h1>
+    <ul class="list-group">
+        <li class="list-group-item text-center">
+            <strong>Is it a dog?</strong>: {{ is_dog }}
+        </li>
+        <li class="list-group-item text-center">
+            <strong>Is it a human?</strong>: {{ is_human }}
+        </li>
+        <li class="list-group-item text-center">
+            <strong>Dog Breed</strong>: {{ dog_breed }}
+        </li>
+    </ul>
+{% endblock %}
