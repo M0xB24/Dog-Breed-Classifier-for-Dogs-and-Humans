@@ -1,4 +1,5 @@
 # Dog Breed Classifier for Dogs and Humans
+![grafik](https://github.com/user-attachments/assets/987a5298-438b-44dc-b934-dc77c926f85d)
 
 ### Instructions:
 
