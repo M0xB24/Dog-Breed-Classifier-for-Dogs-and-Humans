@@ -7,3 +7,17 @@
     `python run.py`
 
 3. Go to http://127.0.0.1:3001
+
+
+#### Used libraries
+- cv2
+- csv
+- flask
+- glob
+- keras.applications.resnet50
+- keras.preprocessing
+- mtcnn   
+- numpy
+- os
+- tensorflow.keras.models
+- werkzeug.utils
