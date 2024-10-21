@@ -84,17 +84,11 @@ def load_resources():
         with open(dog_images_path, 'r') as file:
             reader = csv.reader(file)
             for row in reader:
-            # Jeder 'row' enthält eine Liste mit einem einzelnen Pfad
+            # Jede 'row' enthält eine Liste mit einem einzelnen Pfad
                 dog_names.append(row[0])
-            #dog_names = [item[20:-1] for item in sorted(glob(dog_images_path))]
         
         # Lade das ResNet50-Modell (vorgefertigte Gewichte von ImageNet)
         ResNet50_model = ResNet50(weights='imagenet')
-
-    #if Xception_model is None or dog_names is None or ResNet50_model is None:
-    #    Xception_model = load_model("D:/GIT/Assignement7/Webapp/models/Xception.keras")
-    #    dog_names = [item[20:-1] for item in sorted(glob("D:/GIT/Assignement7/dog_images_complete/dogImages/train/*/"))]
-    #    ResNet50_model = ResNet50(weights='imagenet') 
 
 #-----------------
 # HUMAN PREDICTION
