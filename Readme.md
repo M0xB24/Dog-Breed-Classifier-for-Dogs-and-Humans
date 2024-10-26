@@ -119,7 +119,7 @@ Below a brief description of the directories and the files of this repo.
 - `dog_app.ipynb`: Jupyter notebook used for implementation of this project
 - `dog_app.html`: Jupyter notebook used for implementation of this project as html
 - `extract_bottleneck_features`: library used in dog_app notebook
-- `LICENSE`: Udacity 3rd Party License
+- `LICENSE`: M0xB24 License
 - `README.md`: Readme file
 
 ## Libraries used
