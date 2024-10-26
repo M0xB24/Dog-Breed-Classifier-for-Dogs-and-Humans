@@ -1,6 +1,6 @@
 # Dog Breed Classifier for Dogs and Humans
 <p align="center">
-  <img src="images/dog_breed_classification.gif" width="90%" height="90%">
+  <img src="app/models_data/dog_breed_classification.gif" width="90%" height="90%">
 </p>
 
 ### Instructions
