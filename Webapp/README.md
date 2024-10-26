@@ -3,7 +3,7 @@
 
 ### Instructions
 
-1. Run the following command in the app's directory to run your web app.
+1. Run the following command in the app's directory to run the web app.
     `python run.py`
 
 2. Go to http://127.0.0.1:3001
